@@ -82,10 +82,10 @@ nav {
 /*xxx   home--inicio xxxxx*/
 .home {
   display: flex;
-  background: url(imagens/banner\ 2000.jpg) no-repeat center;
+  background: url(imagens/banner\.jpg) no-repeat center;
+  background-size: 2200px 1000px;
   height: 100vh;
   color: var(--bg--primary);
-  min-height: 500px;
   font-family: "Ubuntu", sans-serif;
 }
 .home .max-width {
@@ -175,6 +175,10 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+section.about {
+  height: 100vh;
+  background-color: rgba(192, 189, 189, 0.271);
 }
 
 section .title {
