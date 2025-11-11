@@ -310,25 +310,45 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 /*xxxxx  Especialidades xxxxx*/
+#skills {
+  display: flex;
+  height: 100vh;
+  background-color: rgba(192, 189, 189, 0.271);
+}
+#skills .title {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
 .skills .title::after {
   content: "Que faço";
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
-.skills .skills-content .left .text {
-  font-size: 25px;
+#skills .skills-content .left .text {
+  font-size: 35px;
   font-weight: 500;
-  margin-bottom: 10px;
+}
+#skills .skills-content .left .text {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.widthSkills {
+  max-width: 2000px;
+  padding: 0 80px;
+  margin: auto;
 }
 .skills .skills-content .left p {
   text-align: justify;
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 .skills .skills-content .left a {
   display: inline-block;
   background: var(--bg--primary);
   color: var(--white--primary);
-  font-size: 10px;
+  font-size: 25px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
@@ -350,7 +370,7 @@ section .title::after {
 }
 .skills .skills-content .right span {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 25px;
 }
 .skills .skills-content .right .line {
   width: 100%;
