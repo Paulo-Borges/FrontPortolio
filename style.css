@@ -181,12 +181,12 @@ section.about {
   background-color: rgba(192, 189, 189, 0.271);
 }
 
-section .title {
+.about .title {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
-  font-size: 40px;
+  font-size: 100px;
   font-weight: 500;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -195,7 +195,7 @@ section .title::before {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 180px;
+  width: 580px;
   height: 3px;
   background: var(--black--primary);
   transform: translateX(-50%);
@@ -212,29 +212,36 @@ section .title::after {
 }
 .about .title::after {
   content: "Quem sou eu";
+  font-size: 30px;
 }
-.about .about-content .left {
-  width: 45%;
+#about .about-content {
+  width: 1800px;
 }
-.about .about-content .right {
+#about .about-content img {
+  width: 600px;
+  height: 600px;
+}
+#about .about-content .right {
   width: 55%;
 }
 .about .about-content .right .text {
-  font-size: 25px;
+  font-size: 50px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .about .about-content .right .text span {
   color: var(--bg--primary);
 }
 .about .about-content .right p {
   text-align: justify;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
-.about .about-content .right a {
+#about .about-content .right a {
   display: inline-block;
   background: var(--bg--primary);
   color: var(--white--primary);
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
