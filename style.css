@@ -261,8 +261,9 @@ section .title::after {
   border-radius: 12px;
 }
 /*xxxxx   sessão serviços xxxxx*/
-.services {
+#services {
   background: var(--black--primary);
+  height: 100vh;
   color: var(--white--primary);
 }
 .services .title::before {
@@ -272,12 +273,16 @@ section .title::after {
   background-color: var(--black--primary);
   content: "Que oferecemos";
 }
-.services .serv-content .card {
-  width: calc(33%-20px);
+#services .title {
+  margin: 100px 0px;
+  font-size: 40px;
+}
+#services .serv-content .card {
+  width: calc(63%-20px);
   background: var(--black--sub);
   text-align: center;
   border-radius: 6px;
-  padding: 20px 15px;
+  padding: 100px 20px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
